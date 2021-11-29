@@ -27,8 +27,8 @@ img {
   display: block;
 }
 .container {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -37,7 +37,6 @@ img {
 
 .header {
   border-bottom: 1px solid #eeeeee;
-  width: 1600px;
 }
 
 /* logo */
@@ -129,10 +128,6 @@ img {
   color: var(--color-accent);
 }
 
-/* h1 {
-  display: none;
-} */
-
 /* Buttons */
 .buttons {
   padding: 0px;
@@ -152,8 +147,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
-  width: 145px;
-  height: 38px;
+  padding: 6px 22px;
 }
 .buttons .button:hover,
 .buttons .button:focus {
@@ -182,8 +176,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-text-nav);
-  padding-left: 24px;
-  padding-top: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -195,15 +187,12 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 4px;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
-
-.images-foto {
-  width: 370px;
+.portfolio-box {
+  padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
-  /* border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee; */
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .images-foto {
   margin-right: 30px;
@@ -217,7 +206,6 @@ img {
 
 .footer {
   background-color: var(--background-color);
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -261,9 +249,6 @@ img {
   margin-top: 10px;
   margin-bottom: 0px;
 }
-.about-us {
-  width: 1600px;
-}
 .title-about-us {
   font-weight: 700;
   font-size: 36px;
@@ -285,25 +270,29 @@ img {
 
 .our-team {
   background-color: var(--background-buttons);
-  width: 1600px;
 }
 
+.bottom-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--color-text-nav);
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .work-position {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
@@ -312,7 +301,8 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title-for-user {
   font-weight: 900;
@@ -322,24 +312,22 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-but-add);
-  margin-top: 200px;
   margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
 }
 
 .button-text {
-  width: 200px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   background-color: var(--color-accent);
   color: var(--color-but-add);
   cursor: pointer;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  margin-top: 30px;
-  margin-bottom: 200px;
+  padding: 10px 32px;
 }
 .button-text:hover,
 .button-text:focus {
@@ -358,27 +346,27 @@ img {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .img-position:not(:last-child) {
   margin-right: 30px;
 }
-
-.benefits-title-text {
-  padding: 0px;
-  margin: 0px;
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.benefits {
+  padding-top: 94px;
+}
 .benefits-title-text {
   display: flex;
+  padding: 0px;
+  margin: 0px;
 }
 
 .benefits-cont {
   width: 270px;
-  margin-bottom: 94px;
 }
 .benefits-cont:not(:last-child) {
   margin-right: 30px;
@@ -406,9 +394,5 @@ img {
 }
 
 .hidden {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  opacity: 0;
-  margin-top: -1px;
+  display: none;
 }
