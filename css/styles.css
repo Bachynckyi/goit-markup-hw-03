@@ -209,6 +209,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
 .mail-footer {
   margin-top: 9px;
 }
